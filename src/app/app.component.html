@@ -1,0 +1,7 @@
+<div *ngFor="let item of test">
+  <input type="checkbox"  [checked]="item.checked" /> {{item.name}} {{item.checked}}
+</div>
+<button (click)="click()">click</button>
+
+<!-- <button (click)="tick()">ApplicationRef.tick</button>
+<counter></counter> -->
