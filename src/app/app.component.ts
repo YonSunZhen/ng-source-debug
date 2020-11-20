@@ -24,7 +24,7 @@ export class AppComponent implements OnInit  {
 
   constructor(
     // ngZone: NgZone,
-    // private applicationRef: ApplicationRef,
+    private applicationRef: ApplicationRef,
     private cdr: ChangeDetectorRef
   ) {
     // ngZone.onMicrotaskEmpty.subscribe(() => {
@@ -55,7 +55,7 @@ export class AppComponent implements OnInit  {
     this.test[0].checked = true;
     console.log(this.test);
     // 不更新试图
-    this.test = JSON.parse(JSON.stringify(this.test));
+    // this.test = JSON.parse(JSON.stringify(this.test));
 
     // 更新视图
     // this.test = [

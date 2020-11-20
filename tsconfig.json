@@ -17,9 +17,7 @@
       "@angular/platform-browser-dynamic": ["src/app/packages/angular/platform-browser-dynamic"],
       "@angular/platform-browser-dynamic/testing": ["src/app/packages/angular/platform-browser-dynamic/testing"],
       "@angular/router": ["src/app/packages/angular/router"],
-      "@ngrx/*": ["src/app/packages/ngrx/*"],
-      "@angular/cdk/*": ["src/app/packages/angular/cdk/*"],
-      "@angular/material/*": ["src/app/packages/angular/material/*"]
+      "@ngrx/*": ["src/app/packages/ngrx/*"]
     },
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
